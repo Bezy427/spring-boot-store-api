@@ -1,6 +1,6 @@
 package com.manning.javapersistence.flightplaner.payments;
 
-import com.manning.javapersistence.flightplaner.entities.Order;
+import com.manning.javapersistence.flightplaner.orders.Order;
 
 import java.util.Optional;
 

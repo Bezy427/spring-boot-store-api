@@ -1,8 +1,7 @@
 package com.manning.javapersistence.flightplaner.payments;
 
-import com.manning.javapersistence.flightplaner.entities.Order;
-import com.manning.javapersistence.flightplaner.entities.OrderItem;
-import com.manning.javapersistence.flightplaner.entities.PaymentStatus;
+import com.manning.javapersistence.flightplaner.orders.Order;
+import com.manning.javapersistence.flightplaner.orders.OrderItem;
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Event;

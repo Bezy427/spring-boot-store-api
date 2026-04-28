@@ -1,9 +1,9 @@
 package com.manning.javapersistence.flightplaner.payments;
 
-import com.manning.javapersistence.flightplaner.dtos.ErrorDto;
-import com.manning.javapersistence.flightplaner.exceptions.CartEmptyException;
-import com.manning.javapersistence.flightplaner.exceptions.CartNotFoundException;
-import com.manning.javapersistence.flightplaner.repositories.OrderRepository;
+import com.manning.javapersistence.flightplaner.common.ErrorDto;
+import com.manning.javapersistence.flightplaner.carts.CartEmptyException;
+import com.manning.javapersistence.flightplaner.carts.CartNotFoundException;
+import com.manning.javapersistence.flightplaner.orders.OrderRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

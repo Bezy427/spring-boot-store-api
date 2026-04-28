@@ -1,5 +1,6 @@
 package com.manning.javapersistence.flightplaner.entities;
 
+import com.manning.javapersistence.flightplaner.products.Product;
 import jakarta.persistence.*;
 import lombok.*;
 

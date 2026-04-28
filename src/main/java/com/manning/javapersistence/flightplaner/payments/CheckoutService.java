@@ -1,12 +1,12 @@
 package com.manning.javapersistence.flightplaner.payments;
 
-import com.manning.javapersistence.flightplaner.entities.Order;
-import com.manning.javapersistence.flightplaner.exceptions.CartEmptyException;
-import com.manning.javapersistence.flightplaner.exceptions.CartNotFoundException;
-import com.manning.javapersistence.flightplaner.repositories.CartRepository;
-import com.manning.javapersistence.flightplaner.repositories.OrderRepository;
-import com.manning.javapersistence.flightplaner.services.AuthService;
-import com.manning.javapersistence.flightplaner.services.CartService;
+import com.manning.javapersistence.flightplaner.orders.Order;
+import com.manning.javapersistence.flightplaner.carts.CartEmptyException;
+import com.manning.javapersistence.flightplaner.carts.CartNotFoundException;
+import com.manning.javapersistence.flightplaner.carts.CartRepository;
+import com.manning.javapersistence.flightplaner.orders.OrderRepository;
+import com.manning.javapersistence.flightplaner.auth.AuthService;
+import com.manning.javapersistence.flightplaner.carts.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
